@@ -26,7 +26,7 @@
         <input type="hidden" name="action" value="filter">
         <dl>
             <dt>From Date:</dt>
-            <dt><input type="date" name="startDate" value=""></dt>
+            <dt><input type="date" name="startDate" value="${param.startDate}"></dt>
         </dl>
         <dl>
             <dt>To Date:</dt>
